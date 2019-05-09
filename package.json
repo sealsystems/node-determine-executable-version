@@ -1,5 +1,5 @@
 {
-  "name": "seal-determine-executable-version",
+  "name": "@sealsystems/determine-executable-version",
   "version": "1.0.0",
   "description": "",
   "author": {
