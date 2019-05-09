@@ -1,3 +1,14 @@
+## 1.1.0 (2019-05-09)
+
+### Features
+
+
+#### trigger release ([90882b7](https://github.com/sealsystems/node-determine-executable-version/commit/90882b7))
+
+
+
+---
+
 ## 1.0.0 (2019-05-09)
 
 ### Features
