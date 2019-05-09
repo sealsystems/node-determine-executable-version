@@ -1,0 +1,33 @@
+{
+  "name": "seal-determine-executable-version",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "SEAL Systems AG",
+    "email": "opensource@sealsystems.de",
+    "url": "http://www.sealsystems.de"
+  },
+  "license": "MIT",
+  "scripts": {
+    "bot": "bot",
+    "release": "semantic-release --branch ${CIRCLE_BRANCH}",
+    "test": "bot test-units",
+    "coverage": "istanbul cover _mocha -- --recursive --ui tdd ",
+    "report": "npm run coverage && if [[ $OSTYPE == darwin* ]]; then open=open; else open=xdg-open; fi && $open coverage/lcov-report/index.html"
+  },
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sealsystems"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@sealsystems/eslint-config-es": "1.1.1",
+    "assertthat": "1.0.0",
+    "roboter": "0.16",
+    "roboter-server": "0.16.0"
+  },
+  "release": {
+    "extends": "@sealsystems/semantic-release-config/node-module"
+  }
+}
