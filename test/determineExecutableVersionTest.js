@@ -35,7 +35,6 @@ suite('determineExecutableVersion', () => {
 
   test('truncates output to maxBytes length', async () => {
     const nodeOutput = await determineExecutableVersion({ exeFile: process.argv[0], maxBytes: 2, exeArguments: ['--version'] });
-
     assert.that(nodeOutput.length).is.equalTo(2);
   });
 });
