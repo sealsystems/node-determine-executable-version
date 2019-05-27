@@ -1,3 +1,14 @@
+## 1.1.2 (2019-05-27)
+
+### Chores
+
+
+#### Fix readme. ([392c626](https://github.com/sealsystems/node-determine-executable-version/commit/392c626))
+
+
+
+---
+
 ## 1.1.1 (2019-05-10)
 
 ### Bug Fixes
