@@ -10,31 +10,43 @@ suite('determineExecutableVersion', () => {
   });
 
   test('errors if given no exeFile to execute', async () => {
-    await assert.that(async () => {
-      await determineExecutableVersion({ something: true });
-    }).is.throwingAsync();
+    await assert
+      .that(async () => {
+        await determineExecutableVersion({ something: true });
+      })
+      .is.throwingAsync();
   });
 
   test('errors if the exeFile cannot be spawned', async () => {
-    await assert.that(async () => {
-      await determineExecutableVersion({ exeFile: 'nonexistentBinary123' });
-    }).is.throwingAsync();
+    await assert
+      .that(async () => {
+        await determineExecutableVersion({ exeFile: 'nonexistentBinary123' });
+      })
+      .is.throwingAsync();
   });
 
   test('errors if maxBytes is not of type number', async () => {
-    await assert.that(async () => {
-      await determineExecutableVersion({ exeFile: process.argv[0], maxBytes: false });
-    }).is.throwingAsync();
+    await assert
+      .that(async () => {
+        await determineExecutableVersion({ exeFile: process.argv[0], maxBytes: false });
+      })
+      .is.throwingAsync();
   });
 
   test('errors if exeArguments is not an array', async () => {
-    await assert.that(async () => {
-      await determineExecutableVersion({ exeFile: process.argv[0], exeArguments: '--version' });
-    }).is.throwingAsync();
+    await assert
+      .that(async () => {
+        await determineExecutableVersion({ exeFile: process.argv[0], exeArguments: '--version' });
+      })
+      .is.throwingAsync();
   });
 
   test('truncates output to maxBytes length', async () => {
-    const nodeOutput = await determineExecutableVersion({ exeFile: process.argv[0], maxBytes: 2, exeArguments: ['--version'] });
+    const nodeOutput = await determineExecutableVersion({
+      exeFile: process.argv[0],
+      maxBytes: 2,
+      exeArguments: ['--version']
+    });
 
     assert.that(nodeOutput.length).is.equalTo(2);
   });
