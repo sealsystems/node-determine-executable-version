@@ -6,7 +6,7 @@
     "email": "opensource@sealsystems.de",
     "url": "http://www.sealsystems.de"
   },
-  "license": "MIT",
+  "license": "SEAL End User License",
   "scripts": {
     "bot": "bot",
     "lint": "lint",
@@ -15,7 +15,8 @@
     "test": "test-run",
     "test:coverage": "test-coverage",
     "test:coverage:check": "test-coverage-check",
-    "test:report": "test-report"
+    "test:report": "test-report",
+    "licenses": "license-checker --production --csv"
   },
   "main": "lib/index.js",
   "repository": {
@@ -24,7 +25,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "3.5.3",
+    "@sealsystems/eslint-config-es": "3.5.4",
     "@sealsystems/mocha": "4.1.1",
     "@sealsystems/semantic-release": "4.0.12"
   },
@@ -33,6 +34,7 @@
   },
   "version": "1.1.2",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "http://plossys.jfrog.io/plossys/api/npm/npm-local"
   }
 }

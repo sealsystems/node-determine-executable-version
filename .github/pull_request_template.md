@@ -1,6 +1,6 @@
-connects to plossys/plossys#
+See also https://jira.sealsystems.de/jira/browse/
 
-Use the following sections to provide more information for the changelog:
+Use the following sections to provide more information for changelog and/or release notes:
 
 #### Details
 
@@ -11,4 +11,3 @@ Use the following sections to provide more information for the changelog:
 
 
 #### References
-
