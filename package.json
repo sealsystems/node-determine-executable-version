@@ -29,7 +29,7 @@
     "@sealsystems/semantic-release": "4.0.12"
   },
   "release": {
-    "extends": "@sealsystems/semantic-release-config/node-module"
+    "extends": "@sealsystems/semantic-release/node-module"
   },
   "version": "1.1.2",
   "publishConfig": {
