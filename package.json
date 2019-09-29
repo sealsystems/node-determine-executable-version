@@ -21,7 +21,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "1.1.1",
+    "@sealsystems/eslint-config-es": "3.5.4",
     "assertthat": "1.0.0",
     "roboter": "0.16",
     "roboter-server": "0.16.0"
