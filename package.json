@@ -9,10 +9,14 @@
   "license": "MIT",
   "scripts": {
     "bot": "bot",
-    "release": "semantic-release --branch ${CIRCLE_BRANCH}",
-    "test": "bot test-units",
-    "coverage": "istanbul cover _mocha -- --recursive --ui tdd ",
-    "report": "npm run coverage && if [[ $OSTYPE == darwin* ]]; then open=open; else open=xdg-open; fi && $open coverage/lcov-report/index.html"
+    "lint": "lint",
+    "lint:fix": "lint-fix",
+    "release": "release",
+    "test": "test-run",
+    "test:coverage": "test-coverage",
+    "test:coverage:check": "test-coverage-check",
+    "test:report": "test-report",
+    "licenses": "license-checker --production --csv"
   },
   "main": "lib/index.js",
   "repository": {
@@ -21,16 +25,16 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "1.1.1",
-    "assertthat": "1.0.0",
-    "roboter": "0.16",
-    "roboter-server": "0.16.0"
+    "@sealsystems/eslint-config-es": "3.6.0",
+    "@sealsystems/mocha": "4.1.1",
+    "@sealsystems/semantic-release": "4.0.12"
   },
   "release": {
-    "extends": "@sealsystems/semantic-release-config/node-module"
+    "extends": "@sealsystems/semantic-release/node-module"
   },
   "version": "1.1.2",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "http://plossys.jfrog.io/plossys/api/npm/npm-local"
   }
 }
