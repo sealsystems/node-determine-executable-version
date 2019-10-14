@@ -1,3 +1,22 @@
+## 1.2.0 (2019-10-14)
+
+### Features
+
+
+#### PLS-431, [PLS-431](https://jira.sealsystems.de/jira/browse/PLS-431) ([9cd0a51](https://github.com/sealsystems/node-determine-executable-version/commit/9cd0a51))
+
+- Removed roboter
+ - Updated appveyor config
+ - Updated CircleCI config
+ - Updated dependencies
+ - Added dependabot
+ - Added `package-lock.json` to git
+ - Fixed linting
+ - Used `seal-node:oss-module-update`
+
+
+---
+
 ## 1.1.2 (2019-05-27)
 
 ### Chores
