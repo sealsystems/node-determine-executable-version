@@ -1,3 +1,15 @@
+## 1.3.0 (2019-10-15)
+
+### Features
+
+
+#### PLS-431, [PLS-431](https://jira.sealsystems.de/jira/browse/PLS-431) ([a706661](https://github.com/sealsystems/node-determine-executable-version/commit/a706661))
+
+- Removed registry-setting
+
+
+---
+
 ## 1.2.0 (2019-10-14)
 
 ### Features
