@@ -1,3 +1,14 @@
+## 1.3.1 (2020-03-09)
+
+### Chores
+
+
+#### yoed ([40af058](https://github.com/sealsystems/node-determine-executable-version/commit/40af058))
+
+
+
+---
+
 ## 1.3.0 (2019-10-15)
 
 ### Features
