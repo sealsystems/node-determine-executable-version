@@ -1,3 +1,10 @@
+## 1.3.2 (2020-12-21)
+
+### Chores
+
+
+Trigger release ([fa50627](https://github.com/sealsystems/node-determine-executable-version/commit/fa50627))
+
 ## 1.3.1 (2020-03-09)
 
 ### Chores
