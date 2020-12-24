@@ -21,7 +21,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sealsystems/node-determine-executable-version.git"
+    "url": "https://github.com/sealsystems/determine-executable-version"
   },
   "dependencies": {},
   "devDependencies": {
