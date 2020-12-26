@@ -1,3 +1,12 @@
+## 1.3.3 (2020-12-26)
+
+### Chores
+
+
+Update build configuration ([d2f9a39](https://github.com/sealsystems/node-determine-executable-version/commit/d2f9a39))
+
+Update build configuration ([6c9b2f9](https://github.com/sealsystems/node-determine-executable-version/commit/6c9b2f9))
+
 ## 1.3.2 (2020-12-21)
 
 ### Chores
