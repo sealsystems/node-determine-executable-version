@@ -1,3 +1,10 @@
+## 1.3.5 (2021-01-17)
+
+### Chores
+
+
+bump node-fetch from 2.6.0 to 2.6.1 ([ef06731](https://github.com/sealsystems/node-determine-executable-version/commit/ef06731))
+
 ## 1.3.4 (2021-01-16)
 
 ### Chores
