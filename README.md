@@ -1,5 +1,4 @@
 # @sealsystems/determine-executable-version
-[![CircleCI](https://circleci.com/gh/sealsystems/node-determine-executable-version.svg?style=svg)](https://circleci.com/gh/sealsystems/node-determine-executable-version)
 
 Calls an executable and returns the version information it writes to stdout.
 
